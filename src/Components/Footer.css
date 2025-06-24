@@ -1,0 +1,21 @@
+footer {
+  background-color: #343a40; 
+  color: white; 
+  text-align: center; 
+  padding: 1rem 0; 
+  margin-top: 3rem; 
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+footer a {
+  color: #ffc107; 
+  text-decoration: none; 
+}
+
+footer .container {
+  padding: 0 15px; 
+}
+
+footer p {
+  margin-bottom: 0.25rem; 
+}

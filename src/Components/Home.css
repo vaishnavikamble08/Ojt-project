@@ -1,0 +1,121 @@
+.image{
+  background-image: url('/public/images/hq720.jpg');
+  background-size: cover;
+  background-position-x: center;
+  height: 35ch;
+}
+.h1{
+    color: white;
+    font-size:7ch;
+    padding-top: 1ch;
+}
+.h3{
+    color: white;
+    font-size: 4ch;
+
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5ch;
+    
+}
+
+.college-box{
+    background-color: white;
+    border-radius: 1opx;
+    width:60%;
+    padding: 30px;
+    margin: 40px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.1);
+   border-radius: 10px;
+    font-size: medium;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border:10px;
+   
+}
+.scrollable-content{
+    height: 100vh;
+    overflow-y: auto;
+    max-height: 458px;
+}
+h1{
+    color: rgb(5, 104, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    color: white;
+    background-color: rgb(1, 214, 1);
+    font-size:large;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+}
+.buttonn{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 8px;
+    
+}
+p{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+
+}
+ol li{
+    list-style: disc;
+}
+.photo{
+    width: 45%;
+    border-radius: 3%;
+    height: 35ch;
+    transition: all 0.3s;
+}
+.photo:hover{
+    
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform:scale(1.05);
+}
+.photo1{
+    width: 50%;
+    border-radius: 3%;
+    height: 35ch;
+     transition: all 0.3s;
+}
+.photo1:hover{
+    
+    transform:scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.contain{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 40px;
+}
+
