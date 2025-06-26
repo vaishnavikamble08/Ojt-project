@@ -108,7 +108,7 @@ const Courses = () => {
 
                  <p>Have questions about a specific course?</p>
                 <div className="buttonn"><a href="/contact"><button>Inquire About Courses</button></a></div></div>
-                </div></div>
+                </div></div> 
             <Footer />
         </>
     )

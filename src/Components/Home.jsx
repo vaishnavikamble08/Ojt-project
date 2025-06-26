@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="image">
     <div><h1 className="h1">Welcome to Vivekanand College!</h1></div>
     <h3 className="h3">Your journey to excellence starts here.</h3>
-    <div className="butto"><a href='/Admission'><button>Apply Now!</button></a></div></div>
+    <div className="butto"><a href="/Admission"><button>Apply Now!</button></a></div></div>
 
                 <p>
                    Vivekanand College is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.
@@ -35,7 +35,7 @@ const Home = () => {
                 <img src="/images/Department pic.png" className="photo1"/></div>
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <p>Ready to explore our courses?</p>
-                <a href="Courses"><div className="buttonn"><button>Explore Courses</button></div></a></div>
+                <a href="/Courses" data-discover="true"><div className="buttonn"><button>Explore Courses</button></div></a></div>
             </div></div>
 
             <Footer />
