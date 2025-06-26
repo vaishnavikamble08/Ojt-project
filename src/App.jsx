@@ -6,6 +6,7 @@ import About from './Components/About'
 import Courses from './Components/Courses'
 import Contact from './Components/Contact'
 import Admission from './Components/Admission';
+import ChatbotComponent from './Components/Chatbot/ChatbotComponent';
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/Contact' element={<Contact/>}/>
           <Route path='/Admission' element={<Admission/>}/>
     </Routes>
+    <ChatbotComponent/>
     </BrowserRouter>
 
     
