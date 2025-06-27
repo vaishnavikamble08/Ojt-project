@@ -57,7 +57,7 @@ const Admission = () => {
                     <span>3. <strong>Entrance Exam (if applicable):</strong>Appear for the college's entrance examination.</span> <br/>
                     <span>4. <strong>Merit List & Interview:</strong>Check the merit list and attend the interview if shortlisted.</span> <br/>
                     <span>5. <strong>Fee Payment:</strong>Complete the admission by paying the required fees.</span> <br/><br/>
-                <span>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our  <a href="/courses" className="anch">Courses page</a>  or  <a href="/contact" className="anch"> Contact us </a> directly.</span>
+                <span>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our  <Link to="/courses" className="anch">Courses page</Link>  or  <Link to="/contact" className="anch"> Contact us </Link> directly.</span>
               
                 </div>
     </div></div>
