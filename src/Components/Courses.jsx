@@ -14,7 +14,7 @@ const Courses = () => {
                     <h2>Discover Campus Life</h2><hr/>
                     <div className="img">
                     <video width="100%" height="auto" controls>
-                        <source src="/public/videos/video.mp4" type="video/mp4"/>
+                        <source src="/videos/video.mp4" type="video/mp4"/>
                         </video>
                       <div className="cap">  <p>Get a glimpse of the vibrant academic and social life at Vivekanand College.</p></div>
                        </div>
@@ -107,7 +107,7 @@ const Courses = () => {
                 <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
 
                  <p>Have questions about a specific course?</p>
-                <div className="buttonn"><a href="/contact"><button>Inquire About Courses</button></a></div></div>
+                <div className="buttonn"><Link to="/contact"><button>Inquire About Courses</button></Link></div></div>
                 </div></div> 
             <Footer />
         </>
